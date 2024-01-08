@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1d3557;
+}
+
+.Navbar {
+    padding: 10px;
+    font-size: 20px;
+    font-family: lato;
+    
+}
+
+.Navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin:20px 0px 0px 700px;
+}
+
+.Navbar li {
+    display: inline;
+}
+
+.Navbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Navbar li a:hover {
+    color: #1d3557;
+    text-decoration: underline;
+   background-color: #f8f3f3;
+    border-radius: 15px;
+
+}
+
+.img2 img{
+    width: 600px;
+    height: 400px;
+    bottom: 0px;
+    margin-left: 700px;    
+    position: relative;
+}
+
+@font-face {
+    font-family: toony;
+    src: url(C:\Users\Tanishq soni\Desktop\codes\ARJ\Yantramanav-Black.ttf);
+}
+
+section h1{
+    color: white;
+    font-size: 50px;
+    font-family: toony;
+    margin: 20px;
+}
+
+.title :nth-child(2) {
+    color: #a8dadc    ;
+
+}
+@font-face {
+    font-family: lato;
+    src: url(C:\Users\Tanishq soni\Desktop\codes\ARJ\Lato-Bold.ttf);
+}
+
+.title p{
+    color: white;
+    width: 500px;
+    font-family: lato;
+    font-weight: 200;
+    margin: 30px;
+    font-size: 20px;
+    margin-bottom: 250px;
+}
+.title{
+    margin-top: -280px;
+}
+.showcase{
+    background-color: #a8dadc;
+    height: 750px ;
+    width: 206.3vh;
+    padding: 0;
+    margin: 0;
+    /* margin: 25px; */
+}
+.showcase img{
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: #1d3557 2px 5px 10px;
+    width: 400px;
+    margin: 20px;
+}
+
+.showcase img:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+}
+span h1{
+    color: #1d3557;
+    margin-left: 800px;
+    font-family: toony;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.ending{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
