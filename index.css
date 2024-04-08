@@ -14,8 +14,12 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     animation: bgcolor 60s infinite 3s ease-in-out;
+}
+
+:webkit-scrollbar{
+    width:0;
 }
 
 .cube {
